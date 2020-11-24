@@ -2,7 +2,7 @@
 
 写这小程序的初衷是为了方便当时写线代作业...(果然偷懒是第一生产力....)
 
-然后也没有太多复杂的功能, 不能对变量进行运算, 只能对常数矩阵做运算... 搞得我现在算那个$\Large \lambda$矩阵的时候又只能手算..现在打算在给这东西做一个更新, 使之能够支持对变量做运算...
+然后也没有太多复杂的功能, 不能对变量进行运算, 只能对常数矩阵做运算... 搞得我现在算那个$\lambda$矩阵的时候又只能手算..现在打算在给这东西做一个更新, 使之能够支持对变量做运算...
 
 # 功能和相应命令
 
@@ -53,5 +53,5 @@
 
 # notices
 
--   `-eig`returns the $\Large \lambda$ and its vectors, but vectors are ordered by cols, not by rows.
+-   `-eig`returns the $\lambda$ and its vectors, but vectors are ordered by cols, not by rows.
 -   so far, only matrix of constant value is supported, initialization with variables will raise exception.
